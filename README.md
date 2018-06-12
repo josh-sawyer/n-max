@@ -31,13 +31,14 @@ npm install -g bower
 
 Pull Project from GitHub using account
 
-Setup instructions per OS
-https://github.com/yui/yui3/wiki/Set-Up-Your-Git-Environment
-
-Git walkthrough
-https://services.github.com/on-demand/github-cli/
-
 Install yo to generate angular project
 http://yeoman.io/
 Yo angular generator
 https://github.com/Swiip/generator-gulp-angular
+
+Refrences
+Git walkthrough : https://services.github.com/on-demand/github-cli/
+Git Setup instructions per OS : https://github.com/yui/yui3/wiki/Set-Up-Your-Git-Environment
+JAVA_HOME setup : https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
+Maven setup : https://www.tutorialspoint.com/maven/maven_environment_setup.htm
+pom.xml : https://maven.apache.org/pom.html#Build_Settings
