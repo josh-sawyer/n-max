@@ -39,3 +39,5 @@ https://services.github.com/on-demand/github-cli/
 
 Install yo to generate angular project
 http://yeoman.io/
+Yo angular generator
+https://github.com/Swiip/generator-gulp-angular
