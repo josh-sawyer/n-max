@@ -36,3 +36,6 @@ https://github.com/yui/yui3/wiki/Set-Up-Your-Git-Environment
 
 Git walkthrough
 https://services.github.com/on-demand/github-cli/
+
+Install yo to generate angular project
+http://yeoman.io/
