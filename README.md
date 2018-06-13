@@ -21,16 +21,10 @@ node -v
 npm -v
 ```
 
-Make sure NPM is up to date by running this command
-to update NPM to the latest version if needed:
-```
-npm install -g npm@latest
-```
-
 Install bower which will be the package manager for
 our UI packages:
 ```
-npm install -g bower
+npm install -g gulp bower
 ```
 
 Pull Project from GitHub using account
