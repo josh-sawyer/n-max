@@ -45,6 +45,8 @@ npm install -g yo
 npm install -g generator-gulp-angular
 ```
 
+Setting up Eclipse [STS](https://spring.io/tools/sts)
+
 Refrences
 
 > Git walkthrough : [LINK](https://services.github.com/on-demand/github-cli/)
@@ -56,3 +58,7 @@ Refrences
 > Maven setup : [LINK](https://www.tutorialspoint.com/maven/maven_environment_setup.htm)
 
 > pom.xml : [LINK](https://maven.apache.org/pom.html#Build_Settings)
+
+> Spring Boot Web Initializer : [LINK](https://start.spring.io/)
+
+> Spring Boot STS Initializer : [LINK](https://spring.io/blog/2015/03/18/spring-boot-support-in-spring-tool-suite-3-6-4)
