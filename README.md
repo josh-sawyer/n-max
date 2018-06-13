@@ -9,7 +9,7 @@ Test install with:
 git --version
 ```
 
-Java install and setup instructions per OS [LINK](https://java.com/en/download/help/download_options.xml)
+Java install and setup instructions per OS [LINK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 Maven install and setup instructions per OS [LINK](https://maven.apache.org/install.html)
 
