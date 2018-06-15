@@ -36,7 +36,7 @@ npm install -g yo
 
 [Yo angular generator](https://github.com/Swiip/generator-gulp-angular)
 ```
-npm install -g generator-gulp-angular
+npm install -g generator-fountain-angular1
 ```
 
 Setting up Eclipse [STS](https://spring.io/tools/sts)
