@@ -372,3 +372,31 @@ public class SearchForNumber2D {
         }
     }
 }
+
+Sample Input Reader:
+public class MyExample {
+
+	public static void main(String[] args) {
+		Scanner reader = new Scanner(System.in);  // Reading from System.in
+		Random rn = new Random();
+		String answer = "y";
+		Integer value = null;
+		while(answer.equals("y")) {
+			System.out.print("Would you like to role the dice? (y = yes : n = no): ");
+			answer = reader.next(); 
+			switch(answer) {
+				case "y":
+					value = rn.nextInt(6) + 1;
+					System.out.println("Your role is : " + value);
+					break;
+				case "n":
+					System.out.println("Bye!");
+					continue;
+				default:
+					continue;
+			}
+		}
+		reader.close();
+	}
+
+}
