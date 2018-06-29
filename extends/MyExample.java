@@ -7,6 +7,7 @@ public class MyExample {
 		people[0] = new Bob();
 		people[1] = new Fred();
 		for(Person person : people) {
+			System.out.println(person.getClass().getName());
 			person.speak();
 		}
 	}
