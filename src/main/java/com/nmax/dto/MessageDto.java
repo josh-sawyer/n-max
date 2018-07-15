@@ -3,7 +3,7 @@ package com.nmax.dto;
 public class MessageDto {
 
 	private String type = "Object";
-	private String message;
+	private String message = "You did not send a message you dummy. To add message /obj?message=YOUR MESSAGE";
 	
 	public MessageDto() {}
 	

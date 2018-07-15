@@ -24,7 +24,7 @@ public class RepeatController {
 		Map<String, String> toReturn = new HashMap<>();
 		toReturn.put("type", "Map");
 		if (message == null) {
-			toReturn.put("message", "You did not send a message you dummy.");
+			toReturn.put("message", "You did not send a message you dummy. To add message /map?message=YOUR MESSAGE");
 		} else {
 			toReturn.put("message", message);
 		}
