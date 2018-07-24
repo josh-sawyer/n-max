@@ -33,7 +33,7 @@ public class RepeatController {
 	
 	@GetMapping("obj")
 	public MessageDto repeatObj(@RequestParam(required = false) String message) {
-		LOG.info("[REPEAT][MAP][" + message + "]");
+		LOG.info("[REPEAT][OBJ][" + message + "]");
 		MessageDto toReturn = new MessageDto(message);
 		return toReturn;
 	}
