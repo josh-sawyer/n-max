@@ -12,12 +12,12 @@ node {
        ./gradlew npm_<command> Executes an NPM command.
     */
     // Version of node to use.
-    version = '8.10.0'
+    version = '10.15.3'
     // Version of npm to use.
-    npmVersion = '6.9.0'
+    npmVersion = '6.13.6'
     // If true, it will download node using above parameters.
     // If false, it will try to use globally installed node.
-    download = true
+    download = false
 }
 
 // 3
