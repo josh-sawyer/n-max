@@ -21,7 +21,7 @@ node -v
 npm -v
 ```
 
-Install angular 8 cli :
+Install [Angular 8 cli](https://cli.angular.io/) :
 ```
 npm install -g @angular/cli
 ```
