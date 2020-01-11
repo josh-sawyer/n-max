@@ -19,23 +19,23 @@ public class RepeatController {
 	
 	private static final Logger LOG = LoggerFactory.getLogger(RepeatController.class);
 	
-	private RepeatService repeatServ;
+	private RepeatService repeatService;
 	
 	@Autowired
-	public RepeatController(RepeatService repeatServ) {
-		this.repeatServ = repeatServ;
+	public RepeatController(RepeatService repeatService) {
+		this.repeatService = repeatService;
 	}
 	
 	@GetMapping("map")
 	public Map<String, String> repeatMap(@RequestParam(required = false) String message) {
 		LOG.info("[REPEAT][CONTROLLER][MAP][" + message + "]");
-		return repeatServ.repeatMap(message);
+		return repeatService.repeatMap(message);
 	}
 	
 	@GetMapping("obj")
 	public MessageDto repeatObj(@RequestParam(required = false) String message) {
 		LOG.info("[REPEAT][CONTROLLER][MAP][" + message + "]");
-		return repeatServ.repeatObj(message);
+		return repeatService.repeatObj(message);
 	}
 
 }

@@ -28,8 +28,7 @@ public class RepeatService {
 
 	public MessageDto repeatObj(String message) {
 		LOG.info("[REPEAT][SERVICE][MAP][" + message + "]");
-		MessageDto toReturn = new MessageDto(message);
-		return toReturn;
+		return new MessageDto(message);
 	}
 
 }

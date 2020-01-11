@@ -1,13 +1,6 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
 HELP.md
 /.gradle
 /build/
-/target
 /bin
 !gradle/wrapper/gradle-wrapper.jar
 
@@ -27,16 +20,6 @@ HELP.md
 *.ipr
 /out/
 
-### virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml ###
-hs_err_pid*
-
-### Eclipse Files ###
-/.classpath
-/.project
-/.settings
-/.idea/
-/*.iml
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -46,3 +29,4 @@ hs_err_pid*
 
 ### VS Code ###
 .vscode/
+
