@@ -4,7 +4,7 @@ Create GitHub account
 
 Download and install [Git](https://git-scm.com/download) version controll manager.
 
-Test install with:
+Test install with :
 ```
 git --version
 ```
@@ -15,28 +15,15 @@ Maven install and setup instructions per OS [LINK](https://maven.apache.org/inst
 
 Download and install Node.js and NPM [LINK](https://www.npmjs.com/get-npm)
 
-Test install with:
+Test install with :
 ```
 node -v
 npm -v
 ```
 
-Install bower which will be the package manager for
-our UI packages:
+Install angular 8 cli :
 ```
-npm install -g gulp bower
-```
-
-Pull Project from GitHub using account
-
-Install [yo](http://yeoman.io/) to generate angular project:
-```
-npm install -g yo
-```
-
-[Yo angular generator](https://github.com/Swiip/generator-gulp-angular)
-```
-npm install -g generator-fountain-angular1
+npm install -g @angular/cli
 ```
 
 Setting up Eclipse [STS](https://spring.io/tools/sts)
