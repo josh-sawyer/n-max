@@ -21,5 +21,5 @@ if [ $LOCAL != $REMOTE ]; then
     ./gradlew build;
     
     #no shell start new jar
-    sudo service n-max stop;
+    sudo service n-max start;
 fi
