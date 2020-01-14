@@ -1,12 +1,9 @@
 #!/bin/sh
 #This is a simple bash script that will poll github for changes to your repo,
-#if found pull them down, and then rebuild and restart spring boot application 
-
-while true
-do
+#if found pull them down, and then rebuild and restart spring boot application
 
 #move into your git repo where your jekyll site is
-cd ~/a_folder_created_off_home/the_git_repo_folder_you_cloned_in;
+cd ~/n-max;
 
 git fetch;
 LOCAL=$(git rev-parse HEAD);
@@ -18,17 +15,12 @@ if [ $LOCAL != $REMOTE ]; then
     git pull origin master;
 
     #stop old service
-    
-    #remove current site directory
-    sudo rm -rf /var/www/site.com/public_html;
+    sudo service n-max stop;
 
     #build new jar
-
-    #copy the newly built jar to new location
-    sudo cp -r a_folder_created_off_home/the_git_repo_folder_you_cloned_in/_site /var/www/site.com/public_html
+    ./gradlew build;
     
     #no shell start new jar
-    sudo service nginx start;
+    sudo service n-max stop;
 fi
-sleep 5
-done
+fi
