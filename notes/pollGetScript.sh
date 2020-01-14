@@ -23,4 +23,3 @@ if [ $LOCAL != $REMOTE ]; then
     #no shell start new jar
     sudo service n-max stop;
 fi
-fi
